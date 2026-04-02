@@ -128,7 +128,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                     ),
                   ),
 
-                  // Skip على اليمين، يظهر من الصفحة الثانية
                   if (currentPage > 0)
                     Align(
                       alignment: Alignment.centerRight,
@@ -224,7 +223,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
                 ),
               ),
 
-              // اللغة والثيم للصفحة الأولى فقط
               if (currentPage == 0) ...[
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
