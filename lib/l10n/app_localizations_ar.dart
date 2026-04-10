@@ -82,6 +82,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enter_your_password => 'أدخل كلمة السر';
 
   @override
+  String get confirm_your_password => 'اكد كلمة السر';
+
+  @override
   String get forget_password => 'نسيت كلمة المرور؟ ';
 
   @override
@@ -158,4 +161,31 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get event_description => 'وصف الحدث';
+
+  @override
+  String get event_date => 'تاريخ الحدث';
+
+  @override
+  String get choose_date => 'اختر التاريخ';
+
+  @override
+  String get event_time => 'وقت الحدث';
+
+  @override
+  String get choose_time => 'اختر الوقت';
+
+  @override
+  String get no_events_found => 'لم يتم العثور على أي أحداث';
+
+  @override
+  String get no_favorite_events_found => 'لم يتم العثور على فعاليات مفضلة بعد';
+
+  @override
+  String get event_details => 'تفاصيل الحدث';
+
+  @override
+  String get edit_event => 'عدل الحدث';
+
+  @override
+  String get update_event => 'تحديث الحدث';
 }

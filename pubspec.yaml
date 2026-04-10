@@ -41,6 +41,11 @@ dependencies:
   intl: any
   provider: ^6.1.5+1
   google_fonts: ^8.0.2
+  firebase_core: ^4.6.0
+  cloud_firestore: ^6.2.0
+  fluttertoast: ^9.0.0
+  firebase_auth: ^6.3.0
+  google_sign_in: ^7.2.0
 
 dev_dependencies:
   flutter_test:

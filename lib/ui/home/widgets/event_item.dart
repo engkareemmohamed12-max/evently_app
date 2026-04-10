@@ -1,18 +1,23 @@
+import 'package:evently_app/providers/event_list_provider.dart';
 import 'package:evently_app/providers/theme_provider.dart';
 import 'package:evently_app/ui/utils/app_assets.dart';
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../../../main.dart';
+import '../../../model/event.dart';
 
 class EventItem extends StatelessWidget {
-  const EventItem({super.key});
+  final Event event ;
+  const EventItem({super.key , required this.event});
 
   @override
   Widget build(BuildContext context) {
     var width = context.width;
     var height = context.height;
     var themeProvider = Provider.of<ThemeProvider>(context);
+    var eventListProvider = Provider.of<EventListProvider>(context);
     return Container(
       height: height*0.20,
       padding: EdgeInsets.symmetric(
@@ -30,10 +35,12 @@ class EventItem extends StatelessWidget {
         fit: BoxFit.fill,
          image: AssetImage(
 
-           themeProvider.isDark ? AppAssets.firstHomeImageDark : AppAssets.firstHomeImageLight
+           event.eventImage
 
         )),
       ),
+
+
 
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -51,8 +58,9 @@ class EventItem extends StatelessWidget {
           width: 2
       ),
     ),
-      
-      child: Text('17 Jan' ,
+
+      child: Text( DateFormat('d MMM').format(event.eventDate) ,
+
 
       style: Theme.of(context).textTheme.bodyMedium,
       ),
@@ -71,18 +79,24 @@ class EventItem extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: Text('This is a Birthday Party' ,
+                  child: Text(event.title ,
 
-                    style: Theme.of(context).textTheme.bodySmall,
+                    style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ),
 
                 IconButton(onPressed: (){
 
                   //todo: add favourite
+                  eventListProvider.updateIsFavorite(event);
 
                 }, icon:
-                Icon(Icons.favorite_border_outlined ,  color: Theme.of(context).cardColor,)
+                Icon(
+
+                  event.isFavorite?
+                      Icons.favorite
+                      :
+                  Icons.favorite_border_outlined ,  color: Theme.of(context).cardColor,)
                 ),
                 
               ],

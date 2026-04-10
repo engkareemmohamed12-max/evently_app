@@ -27,6 +27,7 @@
 
   "enter_your_email" : "أدخل بريدك الإلكتروني",
   "enter_your_password" : "أدخل كلمة السر",
+  "confirm_your_password" : "اكد كلمة السر",
   "forget_password" : "نسيت كلمة المرور؟ ",
   "login" : "تسجيل الدخول",
   "dontHaveAnAccount" : "ليس لديك حساب ؟ ",
@@ -52,7 +53,22 @@
   "add_event" :"اضف حدث",
   "title" : "عنوان",
   "event_title" : "عنوان الحدث",
-  "event_description" : "وصف الحدث"
+  "event_description" : "وصف الحدث",
+  "event_date" : "تاريخ الحدث",
+  "choose_date" : "اختر التاريخ",
+  "event_time" : "وقت الحدث",
+  "choose_time" : "اختر الوقت",
+  "no_events_found" : "لم يتم العثور على أي أحداث",
+  "no_favorite_events_found" : "لم يتم العثور على فعاليات مفضلة بعد",
+  "event_details" : "تفاصيل الحدث",
+  "edit_event" : "عدل الحدث",
+  "update_event" : "تحديث الحدث"
+
+
+
+
+
+
 
 
 

@@ -27,6 +27,7 @@
   "login_to_your_account" : "Login to your account",
   "enter_your_email" : "Enter your email",
   "enter_your_password" : "Enter your password",
+  "confirm_your_password" : "Confirm your password",
   "forget_password" : "Forget Password? ",
   "login" : "Login",
   "dontHaveAnAccount" : "Don’t have an account ? ",
@@ -52,6 +53,15 @@
   "add_event" :"Add event",
   "title" : "Title",
   "event_title" : "Event title",
-  "event_description" : "Event description"
+  "event_description" : "Event description",
+  "event_date" : "Event Date",
+  "choose_date" : "Choose Date",
+  "event_time" : "Event Time",
+  "choose_time" : "Choose Time",
+  "no_events_found" : "No Events Found",
+  "no_favorite_events_found" : "No Favorite Events Found Yet",
+  "event_details" : "Event Details",
+  "edit_event" : "Edit Event",
+  "update_event" : "Update Event"
 
 }

@@ -82,6 +82,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get enter_your_password => 'Enter your password';
 
   @override
+  String get confirm_your_password => 'Confirm your password';
+
+  @override
   String get forget_password => 'Forget Password? ';
 
   @override
@@ -158,4 +161,31 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get event_description => 'Event description';
+
+  @override
+  String get event_date => 'Event Date';
+
+  @override
+  String get choose_date => 'Choose Date';
+
+  @override
+  String get event_time => 'Event Time';
+
+  @override
+  String get choose_time => 'Choose Time';
+
+  @override
+  String get no_events_found => 'No Events Found';
+
+  @override
+  String get no_favorite_events_found => 'No Favorite Events Found Yet';
+
+  @override
+  String get event_details => 'Event Details';
+
+  @override
+  String get edit_event => 'Edit Event';
+
+  @override
+  String get update_event => 'Update Event';
 }

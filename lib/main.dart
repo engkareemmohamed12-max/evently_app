@@ -1,14 +1,20 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:evently_app/providers/event_list_provider.dart';
 import 'package:evently_app/providers/language_provider.dart';
 import 'package:evently_app/providers/theme_provider.dart';
 import 'package:evently_app/ui/auth/login/login_screen.dart';
 import 'package:evently_app/ui/auth/register/register_screen.dart';
 import 'package:evently_app/ui/home/add_event/add_event.dart';
 import 'package:evently_app/ui/home/home_screen.dart';
+import 'package:evently_app/ui/home/tabs/events_details/edit_event.dart';
+import 'package:evently_app/ui/home/tabs/events_details/event_details.dart';
 import 'package:evently_app/ui/utils/app_color.dart';
 import 'package:evently_app/ui/utils/app_route.dart';
 import 'package:evently_app/ui/utils/app_theme.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'firebase_options.dart';
 import 'l10n/app_localizations.dart';
 
 extension ScreenUtils on BuildContext {
@@ -16,12 +22,18 @@ extension ScreenUtils on BuildContext {
   double get height => MediaQuery.of(this).size.height;
 }
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  await FirebaseFirestore.instance.disableNetwork(); //todo : offline
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => LanguageProvider()),
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
+        ChangeNotifierProvider(create: (_) => EventListProvider()),
       ],
       child: const App(),
     ),
@@ -43,8 +55,10 @@ class App extends StatelessWidget {
       routes: {
         AppRoute.homeRouteName: (context) => const HomeScreen(),
         AppRoute.loginRouteName: (context) => const LoginScreen(),
-        AppRoute.registerRouteName: (context) => const RegisterScreen(),
+        AppRoute.registerRouteName: (context) =>  RegisterScreen(),
         AppRoute.addEventRouteName: (context) =>  AddEvent(),
+        //AppRoute.eventDetailsRoute: (context) =>  EventDetails(),
+        //AppRoute.editEventRoute: (context) => EditEvent(event: event),
       },
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
