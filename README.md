@@ -233,7 +233,5 @@ flutter run
 
 ```
 
-كده الـ README **مش بيبالغ في المشروع** وبيوضح بالذات الحاجات اللي أنت اشتغلت عليها: Firebase + Favorites + Provider للـ Theme/Language + Local Storage.
 
-لو تبعتلي **صور Evently الحقيقية** أو الـ README القديم، أقدر أبدّل أماكن الـ `YOUR_...` وأظبط الـ screenshots والـ structure بأسماء ملفات مشروعك الفعلية.
 ```
