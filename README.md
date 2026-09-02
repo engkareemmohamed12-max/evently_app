@@ -198,11 +198,7 @@ This allows the application to remember the user's preferences even after restar
 
 ## 🚀 Getting Started
 
-### Clone Repository
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
 
 ### Install Dependencies
 
@@ -242,9 +238,4 @@ flutter run
 ### Connect with me
 
 * LinkedIn: [Karim Mohamed](https://www.linkedin.com/in/kareem-mohamed-flutter/)
-* GitHub: [engkareemmohamed12-max](https://github.com/engkareemmohamed12-max)
 
-```
-
-
-```
