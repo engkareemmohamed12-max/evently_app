@@ -1,4 +1,4 @@
-# 🎉 Evently — Flutter Event Application
+<img width="1264" height="2534" alt="Screenshot_20260903_012924_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/64d746ab-b91b-4710-ac99-84dc52f5467b" /># 🎉 Evently — Flutter Event Application
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue)
@@ -37,25 +37,38 @@ The application uses Firebase for authentication and cloud data management, Prov
 
 <img width="300"  alt="Screenshot_20260901_192659_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/ccd8c928-6844-4c28-8f66-c2c4c8d22153" />
 
-### 🏠 Home Screen
+### 🏠 Home Screen 
 
-<img width="300" alt="Home Screen" src="YOUR_HOME_SCREEN_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260903_012746_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/f2cb3507-b69b-4163-a48d-808b0f90ee49" />
+
+
+### Add Event Screen
+
+<img width="300"  alt="Screenshot_20260903_012924_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/5ef30d39-ba4c-47b2-ad92-6349ad2d11c5" />
+
+
 
 ### 📅 Event Details
 
-<img width="300" alt="Event Details Screen" src="YOUR_EVENT_DETAILS_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192828_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/cd647dd0-40e0-4798-b194-74223bf18a43" />
 
 ### ❤️ Favorites
 
-<img width="300" alt="Favorites Screen" src="YOUR_FAVORITES_SCREEN_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192849_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/a8760767-66f7-4f38-ae07-44a78b372cb5" />
 
 ### 🌙 Theme
 
-<img width="300" alt="Dark Theme" src="YOUR_DARK_THEME_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192920_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/94ed9f0d-d1e7-411b-9841-696a8a583590" />
+
+<img width="300"  alt="Screenshot_20260901_192927_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/c4d83878-3c8c-46b6-a106-54ab38cb9ecc" />
+
 
 ### 🌍 Language
 
-<img width="300" alt="Language Screen" src="YOUR_LANGUAGE_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192932_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/f77df304-eedc-4f21-a9c9-218371cf4ab9" />
+
+<img width="300"  alt="Screenshot_20260901_192938_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/c47f0273-84c0-48c4-8d8b-8928d24951c2" />
+
 
 ---
 
