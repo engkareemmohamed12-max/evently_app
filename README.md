@@ -1,4 +1,4 @@
-<img width="1264" height="2534" alt="Screenshot_20260903_012924_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/64d746ab-b91b-4710-ac99-84dc52f5467b" /># 🎉 Evently — Flutter Event Application
+# 🎉 Evently — Flutter Event Application
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
 ![Dart](https://img.shields.io/badge/Dart-3.x-blue)
