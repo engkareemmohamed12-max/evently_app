@@ -33,9 +33,9 @@ The application uses Firebase for authentication and cloud data management, Prov
 
 ### 🔐 Login & Register
 
-<img width="300" alt="Login Screen" src="YOUR_LOGIN_SCREEN_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192631_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/4e5bea2a-881b-410f-874e-3d8643312d77" />
 
-<img width="300" alt="Register Screen" src="YOUR_REGISTER_SCREEN_IMAGE_URL" />
+<img width="300"  alt="Screenshot_20260901_192659_com_example_evently_app_MainActivity" src="https://github.com/user-attachments/assets/ccd8c928-6844-4c28-8f66-c2c4c8d22153" />
 
 ### 🏠 Home Screen
 
