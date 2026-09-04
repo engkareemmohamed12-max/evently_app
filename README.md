@@ -76,9 +76,11 @@ The application uses Firebase for authentication and cloud data management, Prov
 
 Watch a quick walkthrough of the application:
 
-YOUR_DEMO_VIDEO_URL
 
----
+
+https://github.com/user-attachments/assets/b02bc815-1041-493b-a385-d1ed571aa7ec
+
+
 
 ## 🏗️ Project Structure
 
